@@ -85,20 +85,21 @@ You're now ready to start your data science project. Here are some common next s
 ├── src                <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module
 |   |
-|    ├── taxi_ride      <- Source code dir in this project.
-|        ├── data <- Scripts to download or generate data
-│            └── preprocess_data.py
-|        |
-│        ├── features
-│            └── build_features.py <- Scripts to turn raw data into features for modeling
-|        |
-│        ├── models
-│            ├── train_model.py <- Scripts to train models and then use trained models to make 
-|            |                     predictions
-│            └── predict_model.py
-|        |
-│        └── visualization    <- Scripts to create exploratory and results oriented visualizations
-│            └── visualize.py
+│   └── taxi_ride       <- Source code dir in this project.
+│       ├── data        <- Scripts to download or generate data
+│       │   ├── __init__.py
+│       │   ├── preprocess_data.py
+│       ├── features
+│       │   ├── build_features.py   <- Scripts to turn raw data into features for modeling
+│       │   └── __init__.py
+│       ├── __init__.py
+│       ├── models
+│       │   ├── __init__.py
+│       │   ├── predict_model.py
+│       │   └── train_model.py      <- Scripts to train models and then use trained models to make predictions
+│       └── visualization
+│           ├── __init__.py
+│           └── visualize.py         <- Scripts to create exploratory and results oriented visualizations
 │
 └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 ```
