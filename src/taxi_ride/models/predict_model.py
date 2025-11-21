@@ -4,7 +4,7 @@ import click
 import mlflow
 import pandas as pd
 
-MODEL_NAME = "rf-taxi-duration" # Name of the model in MLflow Model Registry
+MODEL_NAME = "random-forest-taxi-model" # Name of the model in MLflow Model Registry
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
