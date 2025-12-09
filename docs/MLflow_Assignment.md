@@ -75,7 +75,7 @@ Train models with different values of `max_depth` while keeping other parameters
 
 3. **MLflow UI Exploration**:
    - Use the MLflow UI (http://127.0.0.1:5000) to compare all models
-   - Create a screenshot showing the comparison of all 10 models sorted by `test_r2`
+   - Create a screenshot showing the comparison of all 5 models sorted by `test_r2`
    - Which visualization in MLflow helps you understand the hyperparameter effects best?
 
 ### Deliverables
